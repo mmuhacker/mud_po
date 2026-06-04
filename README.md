@@ -210,18 +210,35 @@ requests>=2.28.0
 
 ---
 
-## 📄 الرخصة
+<div align="center">
 
-```
-MIT License — حر الاستخدام والتعديل والتوزيع
-```
+## 👨‍💻 المطور
+
+**Muhannad Daher**
+
+[![GitHub](https://img.shields.io/badge/GitHub-mmuhacker-black?style=for-the-badge&logo=github)](https://github.com/mmuhacker)
 
 ---
 
+## 📄 الرخصة
+**MIT License — حر الاستخدام مع ذكر المصدر**
+
+---
+</div>
+
+- أداة فحص المتاحات المتطورة (32) منصة
+- البيئة: Termux (Android) / Kali Linux
+- الإصدار: v1.0
+
+
+
+---
 <div align="center">
 
-## المطور
+***Madarik Tools — صُنع بالعربية***
 
-[![GitHub](https://img.shields.io/badge/GitHub-mmuhacker-black?style=for-the-badge&logo=github)](https://github.com/mmuhacker)
+⭐ **إذا أعجبتك الأداة، لا تنسَ النجمة!** ⭐
+</div>
+
 
 </div>
