@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📱 MUD-PO — Phone OSINT Tool
+# 📱 Phone OSINT Tool
 # 📱 أداة جمع معلومات رقم الهاتف
 
 ---
@@ -23,6 +23,8 @@
 - [المميزات](#-المميزات)
 - [المتطلبات](#-المتطلبات)
 - [التثبيت](#-التثبيت)
+  - [التثبيت على Termux](#-على-Android-(Termux))
+  - [التثبيت على Kali Linux](#التثبيت-على-kali-linux)
 
 ## 📋 نظرة عامة
 
@@ -66,7 +68,7 @@ requests
 
 ## 🚀 التثبيت
 
-### على Termux (Android)
+## على Termux (Android)
 
 ```bash
 # 1. تثبيت Python إذا لم يكن مثبتاً
