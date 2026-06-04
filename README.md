@@ -23,8 +23,8 @@
 - [المميزات](#-المميزات)
 - [المتطلبات](#-المتطلبات)
 - [التثبيت](#-التثبيت)
-  - [التثبيت على Termux](#-على-Termux-(Android))
-  - [التثبيت على Kali Linux](#-على-Kali-Linux)
+  - [التثبيت على Termux](https://github.com/mmuhacker/mud_po/blob/main/README.md#%D8%B9%D9%84%D9%89-termux-android)
+  - [التثبيت على Kali Linux](https://github.com/mmuhacker/mud_po/blob/main/README.md#%D8%B9%D9%84%D9%89-kali-linux)
 
 ## 📋 نظرة عامة
 
