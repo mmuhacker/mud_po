@@ -69,41 +69,52 @@ requests
 ## 🚀 التثبيت
 
 ## على Termux (Android)
-
+ 1. تثبيت Python إذا لم يكن مثبتاً
 ```bash
-# 1. تثبيت Python إذا لم يكن مثبتاً
 pkg update && pkg install python git
+```
 
-# 2. استنساخ المستودع
+2. استنساخ المستودع
+```bash
 git clone https://github.com/mmuhacker/mud-po
 cd mud-po
+```
 
-# 3. تشغيل الأداة (ستثبت المكتبات تلقائياً)
+3. تشغيل الأداة (ستثبت المكتبات تلقائياً)
+```bash
 python mud_po.py
 ```
 
-### على Kali Linux
+## على Kali Linux
 
+
+1. استنساخ المستودع
 ```bash
-# 1. استنساخ المستودع
 git clone https://github.com/mmuhacker/mud-po
 cd mud-po
+```
 
-# 2. تثبيت المكتبات
+2. تثبيت المكتبات
+```bash
 pip install -r requirements.txt
+```
 
-# 3. تشغيل الأداة
+3. تشغيل الأداة
+```bash
 python3 mud_po.py
 ```
 
-### تشغيل مباشر (بدون git)
+## تشغيل مباشر (بدون git)
 
+**Termux**
 ```bash
-# Termux
 curl -LO https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
 python mud_po.py
+```
+---
 
-# Kali Linux
+**Kali Linux**
+```bash
 wget https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
 python3 mud_po.py
 ```
