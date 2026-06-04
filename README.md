@@ -11,7 +11,7 @@
 ![Python](https://img.shields.io/badge/3.x-%EF%BA%91%EF%BA%8E%EF%BB%B3%EF%BA%9C%EF%BB%AE%EF%BB%A6-blue?style=for-the-badge&logo=python)<br>
 ![License](https://img.shields.io/badge/MIT-%EF%BA%8D%EF%BB%9F%EF%BA%98%EF%BA%AE%EF%BA%A7%EF%BB%B4%EF%BA%BA-red?style=for-the-badge)<br>
 ![Status](https://img.shields.io/badge/%EF%BB%A7%EF%BA%B8%EF%BB%82-%EF%BA%8D%EF%BB%9F%EF%BA%A4%EF%BA%8E%EF%BB%9F%EF%BA%94-blue?style=for-the-badge)<br>
-[![Author](https://img.shields.io/badge/Author-mmuhacker-red?style=flat-square)](https://github.com/mmuhacker)
+[![Author](https://img.shields.io/badge/Ammuhacker-%EF%BA%8D%EF%BB%9F%EF%BB%A4%EF%BB%84%EF%BB%AE%D8%B1-red?style=flat-square)](https://github.com/mmuhacker)
 
 </div>
 
