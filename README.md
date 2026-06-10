@@ -3,6 +3,15 @@
 # 📱 Phone OSINT Tool
 # 📱 أداة جمع معلومات رقم الهاتف
 
+```
+     ██████╗      ██████╗
+     ██╔══██╗    ██╔═══██╗
+     ██████╔╝    ██║   ██║
+     ██╔═══╝     ██║   ██║
+     ██║         ╚██████╔╝
+     ╚═╝          ╚═════╝
+```
+
 ---
 [![by](https://img.shields.io/badge/mmuhacker-%EF%BA%97%EF%BB%84%EF%BB%AE%EF%BB%B3%EF%BA%AE-blue?style=for-the-badge&logo=github)](https://github.com/mmuhacker)<br>
 ![Version](https://img.shields.io/badge/1.0-%EF%BA%8D%EF%BB%B9%EF%BA%BB%EF%BA%AA%EF%BA%8D%EF%BA%AE-blue?style=for-the-badge)<br>
