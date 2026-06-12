@@ -269,7 +269,7 @@ padding: 5px;">
 
 📷 **صور النتائج**
 
-<img src="img/po1.png"
+<img src="img/po3.png"
 width="90%"
 style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
