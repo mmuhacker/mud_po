@@ -404,14 +404,13 @@ padding: 5px;">
 
 ## 🗂️ هيكل الملفات
 
-```
+``
 mud-po/
 └── img                # صور الأداة
-└── LICENSE            # رخصة MIT
-└── requirements.txt   # رخصة MIT
-├── mud_po.py          # ملف الأداة
-├── README.md          # هذا الملف
 └── LICENSE            # ترخيص خاص
+├── README.md          # هذا الملف
+├── mud_po.py          # ملف الأداة
+└── requirements.txt   # المكتبات المطلوبة
 ```
 
 </div>
