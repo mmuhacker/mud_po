@@ -38,10 +38,11 @@ padding: 5px;">
 - [التثبيت](#-التثبيت)
   - [التثبيت على Termux](https://github.com/mmuhacker/mud_po/blob/main/README.md#%D8%B9%D9%84%D9%89-termux-android)
   - [التثبيت على Kali Linux](https://github.com/mmuhacker/mud_po/blob/main/README.md#%D8%B9%D9%84%D9%89-kali-linux)
-  - [اعداد المفاتيح](#مفاتيح)
-  - [طريقة الاستخدام](#طريقة-الإستخدام)
-  - [أزرار التحكم](#أزرار)
-  - [هيكل الملفات](#-هيكل-الملفات)
+- [اعداد المفاتيح](#مفاتيح)
+- [طريقة الاستخدام](#طريقة-الإستخدام)
+- [أزرار التحكم](#أزرار)
+- [هيكل الملفات](#-هيكل-الملفات)
+- [ملف requirements.txt](#txt)
 
 ---
 
@@ -320,6 +321,8 @@ mud-po/
 </div
 
 ---
+
+<div align="center" id="txt">
 
 ## 📝 ملف requirements.txt
 
