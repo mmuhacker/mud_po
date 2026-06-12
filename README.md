@@ -38,6 +38,10 @@ padding: 5px;">
 - [التثبيت](#-التثبيت)
   - [التثبيت على Termux](https://github.com/mmuhacker/mud_po/blob/main/README.md#%D8%B9%D9%84%D9%89-termux-android)
   - [التثبيت على Kali Linux](https://github.com/mmuhacker/mud_po/blob/main/README.md#%D8%B9%D9%84%D9%89-kali-linux)
+  - [اعداد المفاتيح](#مفاتيح)
+  - [طريقة الاستخدام](#طريقة-الإستخدام)
+  - [أزرار التحكم](#أزرار)
+  - [هيكل الملفات](#-هيكل-الملفات)
 
 ---
 
@@ -171,6 +175,8 @@ python3 mud_po.py
 
 ---
 
+<div align="center" id="مفاتيح">
+
 ## ⚙️ إعداد المفاتيح (اختياري)
 
 **لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):**
@@ -204,9 +210,9 @@ padding: 5px;">
 
 <div align="center" id="طريقة-الإستخدام">
   
-## 🎯 طريقة الاستخدام
+## 🎯 طريقة الإستخدام
 
-### تشغيل الأداة
+**تشغيل الأداة**
 
 </div>
 
@@ -214,7 +220,7 @@ padding: 5px;">
 python3 mud_po.py
 ```
 
-### الاستخدام خطوة بخطوة
+***الاستخدام خطوة بخطوة**
 
 
 1. *شغّل الأداة*
@@ -255,7 +261,7 @@ padding: 5px;">
 
 <div align="center" id="أزرار">
 
-### أزرار التحكم
+## أزرار التحكم
 
 | المفتاح | الوظيفة |
 |---------|---------|
@@ -297,15 +303,21 @@ padding: 5px;">
 
 ---
 
+<div align="center" id="الملفات">
+
 ## 🗂️ هيكل الملفات
 
 ```
 mud-po/
-├── mud_po.py          # الملف الرئيسي
-├── requirements.txt   # المكتبات المطلوبة
-├── README.md          # هذا الملف
+└── img                # صور الأداة
 └── LICENSE            # رخصة MIT
+└── requirements.txt   # رخصة MIT
+├── mud_po.py          # ملف الأداة
+├── README.md          # هذا الملف
+└── LICENSE            # ترخيص خاص
 ```
+
+</div
 
 ---
 
