@@ -375,9 +375,38 @@ requests>=2.28.0
 **رخصة الاستخدام والنشر مع منع التعديل** – يُسمح باستخدام الأداة ونشرها بحرية، لكن يُمنع تعديل الكود أو هندسته عكسياً. راجع [الترخيص](https://github.com/mmuhacker/mud_po/blob/main/LICENSE.md) للتفاصيل الكاملة.
 
 ---
-</div>
 
-- أداة فحص المتاحات المتطورة (32) منصة
+<div align="center" id="img">
+
+## صور الأداة
+
+<div align="center">
+
+<img src="img/po1.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+<img src="img/po2.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+<img src="img/po3.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+<img src="img/po4.png" width="45%" style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+---
+
+
+- أداة جمع معلومات الأرقام
 - البيئة: Termux (Android) / Kali Linux
 - الإصدار: v1.0
 
