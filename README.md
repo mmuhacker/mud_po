@@ -298,6 +298,7 @@ padding: 5px;">
 <i style="color: var(--color-fg-default);">الشكل 2: إدخال الرقم</i>
 
 </div>
+
 3. اضغط Enter لبدء الفحص
 4. انتظر نتائج التحليل التلقائي الكامل
 
