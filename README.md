@@ -183,6 +183,27 @@ python3 mud_po.py
 
 ---
 
+
+## 🔧 إنشاء اختصار التشغيل
+
+</div>
+
+**Termux:**
+
+```bash
+ln -sf $PREFIX/bin/mud_po.py $PREFIX/bin/po
+```
+
+**Kali Linux:**
+
+```bash
+sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
+```
+
+للتشغيل: اكتب po واضغط Enter
+
+---
+
 <div align="center" id="مفاتيح">
 
 ## ⚙️ إعداد المفاتيح (اختياري)
