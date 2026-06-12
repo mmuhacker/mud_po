@@ -1,6 +1,7 @@
 0<div align="center">
 
 # 📱 Phone OSINT Tool
+
 # 📱 أداة جمع معلومات رقم الهاتف
 
 <div align="center">
@@ -39,6 +40,7 @@ padding: 5px;">
   - [التثبيت على Kali Linux](https://github.com/mmuhacker/mud_po/blob/main/README.md#%D8%B9%D9%84%D9%89-kali-linux)
 
 ---
+
 <div align="center">
      
 ## 📋 نظرة عامة
@@ -99,6 +101,9 @@ requests
 <div align="center" id="التثبيت">
      
 ## 🚀 التثبيت
+
+</div>
+
 ---
 
 <div align="center" id="تيرموكس">
@@ -178,13 +183,32 @@ python3 mud_po.py
 
 # إحفظ المفاتيحك في مكان آمن
 
+<div align="center">
 
+
+📷 **الواجهة الرئيسية – إضافة مفاتيح API**
+
+<img src="img/po1.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 1: إضافة مفاتيح API</i>
+
+</div>
 
 ---
 
+<div align="center" id="طريقة-الإستخدام">
+  
 ## 🎯 طريقة الاستخدام
 
 ### تشغيل الأداة
+
+</div>
 
 ```bash
 python3 mud_po.py
@@ -192,17 +216,39 @@ python3 mud_po.py
 
 ### الاستخدام خطوة بخطوة
 
-```
-1. شغّل الأداة
-2. أدخل رقم الهاتف بالصيغة الدولية:
+
+1. *شغّل الأداة*
+2. *أدخل رقم الهاتف بالصيغة الدولية:*
    مثال:  +962799123456   (الأردن)
           +966501234567   (السعودية)
           +201001234567   (مصر)
-3. انتظر نتائج التحليل التلقائي الكامل
-4. استخدم روابط OSINT للبحث الإضافي
-5. اضغط Enter للبحث عن رقم آخر
-6. اكتب  0  للخروج
-```
+
+   <div align="center">
+
+
+📷 **ادخال رقم الهاتف**
+
+<img src="img/po2.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 1: ادخال الرقم</i>
+
+</div>
+
+3. *اضغط Enter لبدء الفحص*
+4. *انتظر نتائج التحليل التلقائي الكامل*
+5. *استخدم روابط OSINT للبحث الإضافي*
+6. *اضغط Enter للبحث عن رقم آخر*
+7. *اكتب  0  للخروج*
+
+---
+
+<div align="center" id="أزرار">
 
 ### أزرار التحكم
 
@@ -212,29 +258,40 @@ python3 mud_po.py
 | `8` | رجوع / إلغاء |
 | `Enter` | تأكيد / متابعة |
 
+
 ---
 
 ## 📊 مثال على النتائج
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  ①  التحليل الأساسي للرقم
-╠══════════════════════════════════════════════════════════════════╣
-  ◦  الحالة                    ✅ رقم صحيح
-  ◦  النوع                     📱 محمول
-  ◦  E.164                     +962799123456
-  ◦  المنطقة (عربي)            الأردن
-  ◦  الشبكة                    Zain Jordan
-  ◦  التوقيت                   Asia/Amman
+<div align="center">
 
-  ②  NumLookup
-  ◦  الدولة                    Jordan
-  ◦  الشبكة                    Zain
-  ◦  نوع الخط                  mobile
 
-  ⑦  تقرير المخاطر
-  🟢  لم يُرصد خطر واضح في التحليل الأولي
-```
+📷 **صور النتائج**
+
+<img src="img/po1.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 3: نتائج 1</i>
+
+
+<img src="img/po4.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 4: نتائج 2</i>
+
+</div>
+
+
 
 ---
 
