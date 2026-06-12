@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="img/001.png"
+<img src="img/001.jpg"
 width="90%"
 style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
