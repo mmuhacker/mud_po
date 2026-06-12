@@ -94,11 +94,12 @@ padding: 5px;">
 </div>
 
 
-
+```
 phonenumbers>=8.13.0
 requests>=2.28.0
 arabic-reshaper>=3.0.0
 python-bidi>=0.4.0
+```
 
 <div align="center">
   
@@ -124,74 +125,112 @@ python-bidi>=0.4.0
 </div>
 
 **الخطوة 1 — تحديث النظام وتثبيت Python**
+
 ```bash
 pkg update && pkg upgrade -y
 pkg install python -y
 ```
-الخطوة 2 — تثبيت المكتبات الأساسية
-bash
-pip install arabic-reshaper python-bidi
 
-الخطوة 3 — تثبيت الخط العربي (للعرض الصحيح)
-bash
+**الخطوة 2 — تثبيت المكتبات الأساسية**
+
+```bash
+pip install arabic-reshaper python-bidi
+```
+
+**الخطوة 3 — تثبيت الخط العربي (للعرض الصحيح)**
+
+```bash
 curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf
 termux-reload-settings
+```
+⚠️ **هام: أغلق Termux تماماً من قائمة التطبيقات الخلفية وافتحه من جديد**
 
-⚠️ هام: أغلق Termux تماماً من قائمة التطبيقات الخلفية وافتحه من جديد
-الخطوة 4 — تنزيل الأداة وإنشاء الاختصار
-bash
+**الخطوة 4 — تنزيل الأداة وإنشاء الاختصار**
+
+```bash
 curl -o $`PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
 chmod +x `$PREFIX/bin/mud_po.py
 ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po
+```
 
-الخطوة 5 — تشغيل الأداة
-bash
+**الخطوة 5 — تشغيل الأداة**
+
+```bash
 po
+```
 
-⚡ أو قم بكل شيء بأمر واحد مجمّع
-bash
+⚡ **أو قم بكل شيء بأمر واحد مجمّع**
+
+```bash
 pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-reshaper python-bidi && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $`PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && chmod +x `$PREFIX/bin/mud_po.py && ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
+```
 
+---
 
-───
+🐉 **Kali Linux**
 
-🐉 Kali Linux
-الخطوة 1 — تحديث النظام وتثبيت Python
-bash
+**الخطوة 1 — تحديث النظام وتثبيت Python**
+
+```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip -y
+```
 
-الخطوة 2 — تثبيت المكتبات الأساسية
-bash
+**الخطوة 2 — تثبيت المكتبات الأساسية**
+
+```bash
 pip3 install arabic-reshaper python-bidi
+```
 
-الخطوة 3 — تنزيل الأداة وإنشاء الاختصار
-bash
+**الخطوة 3 — تنزيل الأداة وإنشاء الاختصار**
+
+```bash
 sudo curl -o /usr/local/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
 sudo chmod +x /usr/local/bin/mud_po.py
 sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
+```
 
-الخطوة 4 — تشغيل الأداة
-bash
+**الخطوة 4 — تشغيل الأداة**
+
+```bash
 po
+```
 
-⚡ أو قم بكل شيء بأمر واحد مجمّع
-bash
+⚡ **أو قم بكل شيء بأمر واحد مجمّع**
+
+```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip -y && pip3 install arabic-reshaper python-bidi && sudo curl -o /usr/local/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && sudo chmod +x /usr/local/bin/mud_po.py && sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
+```
 
+---
 
-───
+## ⚙️ إعداد المفاتيح (اختياري)
 
-⚙️ إعداد المفاتيح (اختياري)
-لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):
-⚡️هذه المفاتيح تعطيك معلومات أكثر عن الأرقام وبدقة عالية
-يمكن استخدام الأداة بدون مفاتيح
+**لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):**
+⚡️**هذه المفاتيح تعطيك معلومات أكثر عن الأرقام وبدقة عالية
+يمكن استخدام الأداة بدون مفاتيح**
+
 احصل على مفتاح مجاني من https://apilayer.com
 احصل على مفتاح مجاني من https://app.abstractapi.com
 احفظ المفاتيح في مكان آمن
+
 📷 الواجهة الرئيسية – إضافة مفاتيح API
 الشكل 1: إضافة مفاتيح API
 
+<div align="center">
+
+📷 **الواجهة الرئيسية – إضافة مفاتيح API**
+الشكل 1: إضافة مفاتيح API
+
+<img src="img/po1.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+</div>
 ───
 
 🎯 طريقة الاستخدام
