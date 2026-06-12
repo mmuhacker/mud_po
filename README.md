@@ -222,6 +222,7 @@ python3 mud_po.py
    مثال:  +962799123456   (الأردن)
           +966501234567   (السعودية)
           +201001234567   (مصر)
+   
 
    <div align="center">
 
@@ -277,9 +278,6 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 background: var(--color-canvas-default);
 padding: 5px;">
 
-<i style="color: var(--color-fg-default);">الشكل 3: نتائج 1</i>
-
-
 <img src="img/po4.png"
 width="90%"
 style="border-radius: 20px;
@@ -288,7 +286,7 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 background: var(--color-canvas-default);
 padding: 5px;">
 
-<i style="color: var(--color-fg-default);">الشكل 4: نتائج 2</i>
+<i style="color: var(--color-fg-default);">الشكل 4: النتائج</i>
 
 </div>
 
