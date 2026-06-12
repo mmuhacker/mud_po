@@ -399,6 +399,8 @@ mud-po/
 ```
 phonenumbers>=8.13.0
 requests>=2.28.0
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.0
 ```
 
 ---
