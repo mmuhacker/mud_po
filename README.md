@@ -243,6 +243,25 @@ sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
 **للتشغيل: اكتب po واضغط Enter**
 
 ---
+<div align="center" id="أمر">
+  
+## 🚀 التثبيت والتشغيل المجمّع (كل شيء في أمر واحد)
+
+
+
+📱 **Termux (Android)**
+
+```bash
+pkg update && pkg upgrade -y && pkg install python git -y && git clone https://github.com/mmuhacker/mud-po && cd mud-po && pip install -r requirements.txt && chmod +x mud_po.py && ln -sf $`(pwd)/mud_po.py `$PREFIX/bin/po && po
+```
+───
+
+🐉 **Kali Linux**
+
+```bash
+sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip git -y && git clone https://github.com/mmuhacker/mud-po && cd mud-po && pip3 install -r requirements.txt && chmod +x mud_po.py && sudo ln -sf $`(pwd)/mud_po.py /usr/local/bin/po && po
+```
+
 
 <div align="center" id="مفاتيح">
 
