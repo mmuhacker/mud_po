@@ -244,6 +244,7 @@ sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
 **للتشغيل: اكتب po واضغط Enter**
 
 ---
+
 <div align="center" id="أمر">
   
 ## 🚀 التثبيت والتشغيل المجمّع (كل شيء في أمر واحد)
@@ -265,6 +266,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip g
 </div>
 
 ---
+
 
 <div align="center" id="مفاتيح">
 
