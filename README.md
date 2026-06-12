@@ -125,6 +125,8 @@ python-bidi>=0.4.0
      
 ## 🚀 التثبيت والتشغيل
 
+</div>
+
 <div align="center" id="تيرموكس">
   
 📱 **Android — Termux**
