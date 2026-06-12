@@ -217,12 +217,13 @@ sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip -
 📷 الواجهة الرئيسية – إضافة مفاتيح API
 الشكل 1: إضافة مفاتيح API
 
+
 <div align="center">
 
-📷 **الواجهة الرئيسية – إضافة مفاتيح API**
-الشكل 1: إضافة مفاتيح API
 
-<img src="img/po1.png"
+📷 **القائمة الرئيسية – إدراج مفاتيح API**
+
+<img src="img/PO1.png"
 width="90%"
 style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
@@ -230,10 +231,12 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 background: var(--color-canvas-default);
 padding: 5px;">
 
+<i style="color: var(--color-fg-default);">الشكل 1: إدخال المفاتيح</i>
+
 </div>
 ───
 
-🎯 طريقة الاستخدام
+## 🎯 طريقة الاستخدام
 تشغيل الأداة
 bash
 po
@@ -244,10 +247,51 @@ po
 مثال: +962799123456 (الأردن)
 +966501234567 (السعودية)
 +201001234567 (مصر)
-📷 إدخال رقم الهاتف
-الشكل 2: إدخال الرقم
+
+<div align="center">
+
+
+📷 **إدخال الرقم**
+
+<img src="img/PO2.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 2: إدخال الرقم</i>
+
+</div>
 1. اضغط Enter لبدء الفحص
 2. انتظر نتائج التحليل التلقائي الكامل
+
+
+<div align="center">
+
+
+📷 **مثال على النتائج**
+
+<img src="img/PO3.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+<img src="img/PO4.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
+
+<i style="color: var(--color-fg-default);">الشكل 3: مثال على النتائج</i>
+
+</div>
+
 3. استخدم روابط OSINT للبحث الإضافي
 4. اضغط Enter للبحث عن رقم آخر
 5. اكتب 0 للخروج
