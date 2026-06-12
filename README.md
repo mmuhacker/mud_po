@@ -40,7 +40,9 @@ padding: 5px;">
 - [التثبيت](#تثبيت)
   - [التثبيت على Termux](#تيرموكس)
   - [التثبيت على Kali Linux](#كالي)
-- [التثبيت بأمر واحد](#أمر)
+- التثبيت بأمر واحد
+  - [التثبيت على Termux](#أمر-تير)
+  - [التثبيت على Kali Linux](#أمر-كالي)
 - [اعداد المفاتيح](#مفاتيح)
 - [طريقة الاستخدام](#طريقة)
   - [الإستخدام خطوة بخطوة](#إستخدام)
@@ -163,12 +165,15 @@ ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po
 ```bash
 po
 ```
+<div align="center" id="أمر-تير">
 
 ⚡ **أو قم بكل شيء بأمر واحد مجمّع**
 
 ```bash
 pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-reshaper python-bidi && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $`PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && chmod +x `$PREFIX/bin/mud_po.py && ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
 ```
+
+</div>
 
 ---
 
@@ -205,11 +210,15 @@ sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
 po
 ```
 
+<div align="center" id="أمر-كالي">
+
 ⚡ **أو قم بكل شيء بأمر واحد مجمّع**
 
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip -y && pip3 install arabic-reshaper python-bidi && sudo curl -o /usr/local/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && sudo chmod +x /usr/local/bin/mud_po.py && sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
 ```
+
+</div>
 
 ---
 
