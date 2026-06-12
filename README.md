@@ -93,12 +93,12 @@ padding: 5px;">
 
 </div>
 
-```
+
+
 phonenumbers>=8.13.0
 requests>=2.28.0
 arabic-reshaper>=3.0.0
 python-bidi>=0.4.0
-```
 
 <div align="center">
   
@@ -115,9 +115,7 @@ python-bidi>=0.4.0
 
 <div align="center" id="تثبيت">
      
-## التثبيت والتشغيل
-
-</div>
+## 🚀 التثبيت والتشغيل
 
 <div align="center" id="تيرموكس">
   
@@ -126,322 +124,137 @@ python-bidi>=0.4.0
 </div>
 
 **الخطوة 1 — تحديث النظام وتثبيت Python**
-
 ```bash
 pkg update && pkg upgrade -y
-pkg install python git -y
+pkg install python -y
 ```
+الخطوة 2 — تثبيت المكتبات الأساسية
+bash
+pip install arabic-reshaper python-bidi
 
-**الخطوة 2 — تنزيل الأداة**
+الخطوة 3 — تثبيت الخط العربي (للعرض الصحيح)
+bash
+curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf
+termux-reload-settings
 
-```bash
-git clone https://github.com/mmuhacker/mud-po
-cd mud-po
-```
+⚠️ هام: أغلق Termux تماماً من قائمة التطبيقات الخلفية وافتحه من جديد
+الخطوة 4 — تنزيل الأداة وإنشاء الاختصار
+bash
+curl -o $`PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
+chmod +x `$PREFIX/bin/mud_po.py
+ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po
 
-**الخطوة 3 — إنشاء اختصار التشغيل**
-
-```bash
-chmod +x mud_po.py
-ln -sf $`(pwd)/mud_po.py `$PREFIX/bin/po
-```
-
-**الخطوة 4 — تشغيل الأداة (ستثبت المكتبات تلقائياً)**
-
-```bash
-python mud_po.py
-```
-
-⚡ **أمر التشغيل المختصر**
-
-```bash
+الخطوة 5 — تشغيل الأداة
+bash
 po
-```
+
+⚡ أو قم بكل شيء بأمر واحد مجمّع
+bash
+pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-reshaper python-bidi && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $`PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && chmod +x `$PREFIX/bin/mud_po.py && ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
 
 
-⚡ **تشغيل مباشر (بدون استنساخ)**
-
-```bash
-curl -LO https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
-chmod +x mud_po.py
-ln -sf $`(pwd)/mud_po.py `$PREFIX/bin/po
-po
-```
----
-
-<div align="center" id="كالي">
-  
-## 🐉 Kali Linux
-
-</div>
-
-**الخطوة 1 — تحديث النظام وتثبيت Python**
-
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install python3 python3-pip git -y
-```
-
-**الخطوة 2 — تنزيل الأداة**
-
-```bash
-git clone https://github.com/mmuhacker/mud-po
-cd mud-po
-```
-
-**الخطوة 3 — تثبيت المكتبات**
-
-```bash
-pip3 install -r requirements.txt
-```
-
-**الخطوة 4 — إنشاء اختصار التشغيل**
-
-```bash
-chmod +x mud_po.py
-sudo ln -sf $`(pwd)/mud_po.py /usr/local/bin/po
-```
-
-**الخطوة 5 — تشغيل الأداة**
-
-```bash
-python3 mud_po.py
-```
-
-⚡ **أمر التشغيل المختصر**
-
-```bash
-po
-```
-
-
-⚡ **تشغيل مباشر (بدون استنساخ)**
-
-```bash
-wget https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
-chmod +x mud_po.py
-sudo ln -sf `$(pwd)/mud_po.py /usr/local/bin/po
-po
-```
-
-
----
-
-<div align="center">
-
-**Termux:**
-
-```bash
-ln -sf $PREFIX/bin/mud_po.py $PREFIX/bin/po
-```
-
-**Kali Linux:**
-
-```bash
-sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
-```
-
-</div>
-
-**للتشغيل: اكتب po واضغط Enter**
-
----
-
-<div align="center" id="أمر">
-  
-## 🚀 التثبيت والتشغيل المجمّع (كل شيء في أمر واحد)
-
-
-
-📱 **Termux (Android)**
-
-```bash
-pkg update && pkg upgrade -y && pkg install python git -y && git clone https://github.com/mmuhacker/mud-po && cd mud-po && pip install -r requirements.txt && chmod +x mud_po.py && ln -sf $`(pwd)/mud_po.py `$PREFIX/bin/po && po
-```
 ───
 
-🐉 **Kali Linux**
+🐉 Kali Linux
+الخطوة 1 — تحديث النظام وتثبيت Python
+bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 python3-pip -y
 
-```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip git -y && git clone https://github.com/mmuhacker/mud-po && cd mud-po && pip3 install -r requirements.txt && chmod +x mud_po.py && sudo ln -sf $`(pwd)/mud_po.py /usr/local/bin/po && po
-```
-</div>
+الخطوة 2 — تثبيت المكتبات الأساسية
+bash
+pip3 install arabic-reshaper python-bidi
 
----
+الخطوة 3 — تنزيل الأداة وإنشاء الاختصار
+bash
+sudo curl -o /usr/local/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
+sudo chmod +x /usr/local/bin/mud_po.py
+sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
 
+الخطوة 4 — تشغيل الأداة
+bash
+po
 
-<div align="center" id="مفاتيح">
-
-## ⚙️ إعداد المفاتيح (اختياري)
-
-</div>
-
-**لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):**
-⚡️**هذه اامفاتيح تعطيك معلومات أكثر عن الأرقام وبدقة عالية**
-***يمكن إستخدام الأداة بدون مفاتيح***
-
-**احصل على مفتاح مجاني من https://apilayer.com**
-
-**احصل على مفتاح مجاني من https://app.abstractapi.com**
-
-**إحفظ المفاتيح في مكان آمن**
-
-<div align="center">
+⚡ أو قم بكل شيء بأمر واحد مجمّع
+bash
+sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip -y && pip3 install arabic-reshaper python-bidi && sudo curl -o /usr/local/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && sudo chmod +x /usr/local/bin/mud_po.py && sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
 
 
-📷 **الواجهة الرئيسية – إضافة مفاتيح API**
+───
 
-<img src="img/po1.png"
-width="90%"
-style="border-radius: 20px;
-border: 2px solid var(--color-border-default);
-box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-background: var(--color-canvas-default);
-padding: 5px;">
+⚙️ إعداد المفاتيح (اختياري)
+لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):
+⚡️هذه المفاتيح تعطيك معلومات أكثر عن الأرقام وبدقة عالية
+يمكن استخدام الأداة بدون مفاتيح
+احصل على مفتاح مجاني من https://apilayer.com
+احصل على مفتاح مجاني من https://app.abstractapi.com
+احفظ المفاتيح في مكان آمن
+📷 الواجهة الرئيسية – إضافة مفاتيح API
+الشكل 1: إضافة مفاتيح API
 
-<i style="color: var(--color-fg-default);">الشكل 1: إضافة مفاتيح API</i>
+───
 
-</div>
+🎯 طريقة الاستخدام
+تشغيل الأداة
+bash
+po
 
----
+الاستخدام خطوة بخطوة
+1. شغّل الأداة
+2. أدخل رقم الهاتف بالصيغة الدولية:
+مثال: +962799123456 (الأردن)
++966501234567 (السعودية)
++201001234567 (مصر)
+📷 إدخال رقم الهاتف
+الشكل 2: إدخال الرقم
+1. اضغط Enter لبدء الفحص
+2. انتظر نتائج التحليل التلقائي الكامل
+3. استخدم روابط OSINT للبحث الإضافي
+4. اضغط Enter للبحث عن رقم آخر
+5. اكتب 0 للخروج
 
-<div align="center" id="طريقة-الإستخدام">
-  
-## 🎯 طريقة الإستخدام
+───
 
-**تشغيل الأداة**
+أزرار التحكم
+المفتاح الوظيفة
+0 خروج من الأداة
+8 رجوع / إلغاء
+Enter تأكيد / متابعة
 
-</div>
+───
 
-```bash
-python3 mud_po.py
-```
+📊 أمثلة على النتائج
+📷 صور النتائج
 
+الشكل 4: النتائج
 
+───
 
-<div align="center">
-
-**الاستخدام خطوة بخطوة**
-
-</div>
-
-1. *شغّل الأداة*
-2. *أدخل رقم الهاتف بالصيغة الدولية:*<br>
-       مثال: +962799123456   (الأردن)
-           +966501234567   (السعودية)
-           +201001234567   (مصر)
-
-<div align="center">
-
-📷 **ادخال رقم الهاتف**
-
-<img src="img/po2.png"
-width="90%"
-style="border-radius: 20px;
-border: 2px solid var(--color-border-default);
-box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-background: var(--color-canvas-default);
-padding: 5px;">
-
-<i style="color: var(--color-fg-default);">الشكل 2: ادخال الرقم</i>
-
-</div>
-
-3. *اضغط Enter لبدء الفحص*
-4. *انتظر نتائج التحليل التلقائي الكامل*
-5. *استخدم روابط OSINT للبحث الإضافي*
-6. *اضغط Enter للبحث عن رقم آخر*
-7. *اكتب  0  للخروج*
-
-
----
-
-<div align="center" id="أزرار">
-
-## أزرار التحكم
-
-| المفتاح | الوظيفة |
-|---------|---------|
-| `0` | خروج من الأداة |
-| `8` | رجوع / إلغاء |
-| `Enter` | تأكيد / متابعة |
-
-</div>
-
----
-
-<div align="center" id="نتائج">
-
-## 📊 أمثلة على النتائج
-
-
-📷 **صور النتائج**
-
-<img src="img/po3.png"
-width="90%"
-style="border-radius: 20px;
-border: 2px solid var(--color-border-default);
-box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-background: var(--color-canvas-default);
-padding: 5px;">
-<img src="img/po4.png"
-width="90%"
-style="border-radius: 20px;
-border: 2px solid var(--color-border-default);
-box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-background: var(--color-canvas-default);
-padding: 5px;">
-
-<i style="color: var(--color-fg-default);">الشكل 4: النتائج</i>
-
-</div>
-
-
-
----
-
-<div align="center" id="ملفات">
-
-## 🗂️ هيكل الملفات
-
-```
+🗂️ هيكل الملفات
 mud-po/
-└── img                # صور الأداة
-└── LICENSE            # ترخيص خاص
-├── README.md          # هذا الملف
-├── mud_po.py          # ملف الأداة
-└── requirements.txt   # المكتبات المطلوبة
-```
+├── img/               # صور الأداة
+├── mud_po.py          # ملف الأداة الرئيسي
+├── requirements.txt   # المكتبات المطلوبة
+├── LICENSE            # رخصة MIT
+└── README.md          # هذا الملف
 
-</div>
 
----
+───
 
-<div align="center" id="txt">
+📝 ملف requirements.txt
+phonenumbers&gt;=8.13.0
+requests&gt;=2.28.0
+arabic-reshaper&gt;=3.0.0
+python-bidi&gt;=0.4.0
 
-## 📝 ملف requirements.txt
 
-</div>
+───
 
-```
-phonenumbers>=8.13.0
-requests>=2.28.0
-arabic-reshaper>=3.0.0
-python-bidi>=0.4.0
-```
-
----
-
-<div align="center" id="مساهمة">
-  
-## 🤝 المساهمة
-
-</div>
-
+🤝 المساهمة
 المساهمات مرحب بها! يمكنك:
-- فتح Issue للإبلاغ عن خطأ
-- تقديم Pull Request لإضافة ميزة
-- اقتراح تحسينات عبر Issues
+· فتح Issue للإبلاغ عن خطأ
+· تقديم Pull Request لإضافة ميزة
+· اقتراح تحسينات عبر Issues
 
 ---
 
