@@ -73,16 +73,18 @@ padding: 5px;">
 
 ## 📦 المتطلبات
 
-</div>
-
 
 ## المكتبات (تُثبَّت تلقائياً)
+
+</div>
 
 ```
 phonenumbers
 requests
 ```
 
+<div align="center">
+  
 ## أدوات النظام
 
 | البيئة | الأمر |
@@ -90,45 +92,59 @@ requests
 | Termux | `pkg install python` |
 | Kali Linux | `sudo apt install python3 python3-pip` |
 
+</div>
+
 ---
 
 <div align="center" id="التثبيت">
      
 ## 🚀 التثبيت
-</div>
+---
+
+<div align="center" id="تيرموكس">
 
 ## على Termux (Android)
- 1. تثبيت Python إذا لم يكن مثبتاً
+
+</div>
+
+**1. تثبيت Python إذا لم يكن مثبتاً**
+
 ```bash
 pkg update && pkg install python git
 ```
 
-2. استنساخ المستودع
+**2. استنساخ المستودع**
 ```bash
 git clone https://github.com/mmuhacker/mud-po
 cd mud-po
 ```
 
-3. تشغيل الأداة (ستثبت المكتبات تلقائياً)
+**3. تشغيل الأداة (ستثبت المكتبات تلقائياً)**
 ```bash
 python mud_po.py
 ```
 
+---
+
+<div align="center" id="لينكس">
+
 ## على Kali Linux
 
+</div>
 
-1. استنساخ المستودع
+
+**1. استنساخ المستودع**
 ```bash
 git clone https://github.com/mmuhacker/mud-po
 cd mud-po
 ```
 
-2. تثبيت المكتبات
+**2. تثبيت المكتبات**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. تشغيل الأداة
+**3. تشغيل الأداة**
 ```bash
 python3 mud_po.py
 ```
@@ -152,20 +168,17 @@ python3 mud_po.py
 
 ## ⚙️ إعداد المفاتيح (اختياري)
 
-لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):
+**لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):**
+⚡️**هذه اامفاتيح تعطيك معلومات أكثر عن الأرقام وبدقة عالية**
+***يمكن إستخدام الأداة بدون مفاتيح***
 
-```bash
 # احصل على مفتاح مجاني من https://apilayer.com
-export APILAYER_KEY="مفتاحك_هنا"
 
 # احصل على مفتاح مجاني من https://app.abstractapi.com
-export ABSTRACT_KEY="مفتاحك_هنا"
 
-# لحفظ المفاتيح بشكل دائم (Termux)
-echo 'export APILAYER_KEY="مفتاحك"' >> ~/.bashrc
-echo 'export ABSTRACT_KEY="مفتاحك"' >> ~/.bashrc
-source ~/.bashrc
-```
+# إحفظ المفاتيحك في مكان آمن
+
+
 
 ---
 
