@@ -49,6 +49,7 @@ padding: 5px;">
 - [المساهمة](#مساهمة)
 - [المطور](#المطور)
 - [الرخصة](#رخصة)
+- [صور الأداة](#img)
 
 ---
 
@@ -380,7 +381,7 @@ requests>=2.28.0
 
 ## صور الأداة
 
-<div align="center">
+</div>
 
 <img src="img/po1.png" width="45%" style="border-radius: 20px;
 border: 2px solid var(--color-border-default);
