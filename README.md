@@ -157,9 +157,9 @@ termux-reload-settings
 **الخطوة 4 — تنزيل الأداة وإنشاء الاختصار**
 
 ```bash
-curl -o $`PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
-chmod +x `$PREFIX/bin/mud_po.py
-ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po
+curl -o $PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
+chmod +x $PREFIX/bin/mud_po.py
+ln -sf $PREFIX/bin/mud_po.py $PREFIX/bin/po
 ```
 
 **الخطوة 5 — تشغيل الأداة**
@@ -172,7 +172,7 @@ po
 ⚡ **أو قم بكل شيء بأمر واحد مجمّع**
 
 ```bash
-pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-reshaper python-bidi && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o $`PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && chmod +x `$PREFIX/bin/mud_po.py && ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
+pkg update && pkg upgrade -y && pkg install python -y && pip install arabic-reshaper python-bidi && curl -L "https://fonts.gstatic.com/s/notonaskharabic/v33/RrQ5bpV-9Dd1b1OAGA6M9PkyDuVBePeKNaxcsss0Y7bwvc-VaA.ttf" -o ~/.termux/font.ttf && termux-reload-settings && curl -o PREFIX/bin/mud_po.py https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py && chmod +x `$PREFIX/bin/mud_po.py && ln -sf $`PREFIX/bin/mud_po.py `$PREFIX/bin/po && echo "✅ تم التثبيت بنجاح! استخدم الأمر: po" && po
 ```
 
 </div>
