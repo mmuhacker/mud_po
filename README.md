@@ -246,10 +246,6 @@ python3 mud_po.py
 
 📷 **ادخال رقم الهاتف**
 
-</div>
-
-<div align="center">
-
 <img src="img/po2.png"
 width="90%"
 style="border-radius: 20px;
