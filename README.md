@@ -110,83 +110,119 @@ requests
 
 ---
 
-<div align="center" id="التثبيت">
+<div align="center" id="تثبيت">
      
-## 🚀 التثبيت
-
-</div>
-
----
+## التثبيت والتشغيل
 
 <div align="center" id="تيرموكس">
-
-## على Termux (Android)
+  
+📱 **Android — Termux**
 
 </div>
 
-**1. تثبيت Python إذا لم يكن مثبتاً**
+الخطوة 1 — تحديث النظام وتثبيت Python
 
 ```bash
-pkg update && pkg install python git
+pkg update && pkg upgrade -y
+pkg install python git -y
 ```
 
-**2. استنساخ المستودع**
+الخطوة 2 — تنزيل الأداة
+
 ```bash
 git clone https://github.com/mmuhacker/mud-po
 cd mud-po
 ```
 
-**3. تشغيل الأداة (ستثبت المكتبات تلقائياً)**
+الخطوة 3 — إنشاء اختصار التشغيل
+
+```bash
+chmod +x mud_po.py
+ln -sf $`(pwd)/mud_po.py `$PREFIX/bin/po
+```
+
+الخطوة 4 — تشغيل الأداة (ستثبت المكتبات تلقائياً)
+
 ```bash
 python mud_po.py
 ```
 
----
+⚡ أمر التشغيل المختصر
 
-<div align="center" id="لينكس">
-
-## على Kali Linux
-
-</div>
-
-
-**1. استنساخ المستودع**
 ```bash
-git clone https://github.com/mmuhacker/mud-po
-cd mud-po
+po
 ```
 
-**2. تثبيت المكتبات**
-```bash
-pip install -r requirements.txt
-```
 
-**3. تشغيل الأداة**
-```bash
-python3 mud_po.py
-```
+⚡ تشغيل مباشر (بدون استنساخ)
 
-## تشغيل مباشر (بدون git)
-
-**Termux**
 ```bash
 curl -LO https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
-python mud_po.py
+chmod +x mud_po.py
+ln -sf $`(pwd)/mud_po.py `$PREFIX/bin/po
+po
 ```
 ---
 
-**Kali Linux**
+<div align="center" id="كالي">
+  
+## 🐉 Kali Linux
+
+</div>
+
+الخطوة 1 — تحديث النظام وتثبيت Python
+
 ```bash
-wget https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 python3-pip git -y
+```
+
+الخطوة 2 — تنزيل الأداة
+
+```bash
+git clone https://github.com/mmuhacker/mud-po
+cd mud-po
+```
+
+الخطوة 3 — تثبيت المكتبات
+
+```bash
+pip3 install -r requirements.txt
+```
+
+الخطوة 4 — إنشاء اختصار التشغيل
+
+```bash
+chmod +x mud_po.py
+sudo ln -sf $`(pwd)/mud_po.py /usr/local/bin/po
+```
+
+الخطوة 5 — تشغيل الأداة
+
+```bash
 python3 mud_po.py
 ```
 
+⚡ أمر التشغيل المختصر
+
+```bash
+po
+```
+
+
+⚡ تشغيل مباشر (بدون استنساخ)
+
+```bash
+wget https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
+chmod +x mud_po.py
+sudo ln -sf `$(pwd)/mud_po.py /usr/local/bin/po
+po
+```
+
+
 ---
 
-
-## 🔧 إنشاء اختصار التشغيل
-
-</div>
+<div align="center">
 
 **Termux:**
 
@@ -200,7 +236,9 @@ ln -sf $PREFIX/bin/mud_po.py $PREFIX/bin/po
 sudo ln -sf /usr/local/bin/mud_po.py /usr/local/bin/po
 ```
 
-للتشغيل: اكتب po واضغط Enter
+</div>
+
+**للتشغيل: اكتب po واضغط Enter**
 
 ---
 
