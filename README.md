@@ -117,47 +117,49 @@ python-bidi>=0.4.0
      
 ## التثبيت والتشغيل
 
+</div>
+
 <div align="center" id="تيرموكس">
   
 📱 **Android — Termux**
 
 </div>
 
-الخطوة 1 — تحديث النظام وتثبيت Python
+**الخطوة 1 — تحديث النظام وتثبيت Python**
 
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
 ```
 
-الخطوة 2 — تنزيل الأداة
+**الخطوة 2 — تنزيل الأداة**
 
 ```bash
 git clone https://github.com/mmuhacker/mud-po
 cd mud-po
 ```
 
-الخطوة 3 — إنشاء اختصار التشغيل
+**الخطوة 3 — إنشاء اختصار التشغيل**
 
 ```bash
 chmod +x mud_po.py
 ln -sf $`(pwd)/mud_po.py `$PREFIX/bin/po
 ```
 
-الخطوة 4 — تشغيل الأداة (ستثبت المكتبات تلقائياً)
+**الخطوة 4 — تشغيل الأداة (ستثبت المكتبات تلقائياً)**
 
 ```bash
 python mud_po.py
 ```
 
-⚡ أمر التشغيل المختصر
+⚡ **أمر التشغيل المختصر**
 
 ```bash
 po
 ```
 
 
-⚡ تشغيل مباشر (بدون استنساخ)
+⚡ **تشغيل مباشر (بدون استنساخ)**
 
 ```bash
 curl -LO https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
@@ -173,47 +175,47 @@ po
 
 </div>
 
-الخطوة 1 — تحديث النظام وتثبيت Python
+**الخطوة 1 — تحديث النظام وتثبيت Python**
 
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip git -y
 ```
 
-الخطوة 2 — تنزيل الأداة
+**الخطوة 2 — تنزيل الأداة**
 
 ```bash
 git clone https://github.com/mmuhacker/mud-po
 cd mud-po
 ```
 
-الخطوة 3 — تثبيت المكتبات
+**الخطوة 3 — تثبيت المكتبات**
 
 ```bash
 pip3 install -r requirements.txt
 ```
 
-الخطوة 4 — إنشاء اختصار التشغيل
+**الخطوة 4 — إنشاء اختصار التشغيل**
 
 ```bash
 chmod +x mud_po.py
 sudo ln -sf $`(pwd)/mud_po.py /usr/local/bin/po
 ```
 
-الخطوة 5 — تشغيل الأداة
+**الخطوة 5 — تشغيل الأداة**
 
 ```bash
 python3 mud_po.py
 ```
 
-⚡ أمر التشغيل المختصر
+⚡ **أمر التشغيل المختصر**
 
 ```bash
 po
 ```
 
 
-⚡ تشغيل مباشر (بدون استنساخ)
+⚡ **تشغيل مباشر (بدون استنساخ)**
 
 ```bash
 wget https://raw.githubusercontent.com/mmuhacker/mud-po/main/mud_po.py
