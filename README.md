@@ -262,6 +262,8 @@ pkg update && pkg upgrade -y && pkg install python git -y && git clone https://g
 ```bash
 sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip git -y && git clone https://github.com/mmuhacker/mud-po && cd mud-po && pip3 install -r requirements.txt && chmod +x mud_po.py && sudo ln -sf $`(pwd)/mud_po.py /usr/local/bin/po && po
 ```
+</div>
+
 ---
 
 <div align="center" id="مفاتيح">
