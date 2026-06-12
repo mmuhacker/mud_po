@@ -177,11 +177,11 @@ python3 mud_po.py
 ⚡️**هذه اامفاتيح تعطيك معلومات أكثر عن الأرقام وبدقة عالية**
 ***يمكن إستخدام الأداة بدون مفاتيح***
 
-# احصل على مفتاح مجاني من https://apilayer.com
+**حصل على مفتاح مجاني من https://apilayer.com**
 
-# احصل على مفتاح مجاني من https://app.abstractapi.com
+**احصل على مفتاح مجاني من https://app.abstractapi.com**
 
-# إحفظ المفاتيحك في مكان آمن
+**إحفظ المفاتيحك في مكان آمن**
 
 <div align="center">
 
@@ -236,7 +236,7 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 background: var(--color-canvas-default);
 padding: 5px;">
 
-<i style="color: var(--color-fg-default);">الشكل 1: ادخال الرقم</i>
+<i style="color: var(--color-fg-default);">الشكل 2: ادخال الرقم</i>
 
 </div>
 
