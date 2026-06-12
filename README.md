@@ -414,12 +414,11 @@ padding: 5px;">
 
 
 ---
+
 <div align="center">
 
 ***Madarik Tools — صُنع بالعربية***
 
 ⭐ **إذا أعجبتك الأداة، لا تنسَ النجمة!** ⭐
-</div>
-
 
 </div>
