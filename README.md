@@ -327,13 +327,15 @@ mud-po/
 └── LICENSE            # ترخيص خاص
 ```
 
-</div
+</div>
 
 ---
 
 <div align="center" id="txt">
 
 ## 📝 ملف requirements.txt
+
+</div>
 
 ```
 phonenumbers>=8.13.0
