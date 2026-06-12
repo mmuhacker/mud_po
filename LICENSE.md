@@ -1,13 +1,13 @@
+<div align="center">
 
+<img src="img/001.png"
+width="90%"
+style="border-radius: 20px;
+border: 2px solid var(--color-border-default);
+box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+background: var(--color-canvas-default);
+padding: 5px;">
 
-```
-   ██████╗     ██████╗    
-   ██╔══██╗  ██╔════██╗   
-   ██████╔╝ ██║       ██║   
-   ██╔═══╝   ██║     ██║   
-   ██║         ╚██████╔╝  
-   ╚═╝         ╚═════╝
-```
 
 <div align="center">
 
