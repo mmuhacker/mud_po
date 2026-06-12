@@ -228,6 +228,8 @@ sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip -
 
 ## ⚙️ إعداد المفاتيح (اختياري)
 
+</div>
+
 **لاستخدام APILayer و AbstractAPI (مجاناً حتى 100 طلب/شهر):**
 
 ⚡️**هذه المفاتيح تعطيك معلومات أكثر عن الأرقام وبدقة عالية**
