@@ -193,7 +193,7 @@ python3 mud_po.py
 
 **احصل على مفتاح مجاني من https://app.abstractapi.com**
 
-**إحفظ المفاتيحك في مكان آمن**
+**إحفظ المفاتيح في مكان آمن**
 
 <div align="center">
 
