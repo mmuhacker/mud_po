@@ -1,8 +1,12 @@
-0<div align="center">
+<div align="center">
 
 # 📱 Phone OSINT Tool
 
 # 📱 أداة جمع معلومات رقم الهاتف
+
+</div>
+
+---
 
 <div align="center">
 
@@ -42,7 +46,7 @@ padding: 5px;">
 - [طريقة الاستخدام](#طريقة-الإستخدام)
 - [أزرار التحكم](#أزرار)
 - [هيكل الملفات](#-هيكل-الملفات)
-- [ملف requirements.txt](#txt)
+- [ملف requirements.txt](#ملفات)
 - [المساهمة](#مساهمة)
 - [المطور](#المطور)
 - [الرخصة](#رخصة)
@@ -315,7 +319,7 @@ padding: 5px;">
 
 ---
 
-<div align="center" id="الملفات">
+<div align="center" id="ملفات">
 
 ## 🗂️ هيكل الملفات
 
